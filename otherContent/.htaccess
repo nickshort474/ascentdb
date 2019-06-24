@@ -1,0 +1,2 @@
+AddHandler application/x-httpd-php70 .php .php5
+Options +Indexes
