@@ -18,7 +18,7 @@ const Footer = () => (
                     </ul>
                 </div>
                 <div className="col-sm-6">
-                	<p className="copyright">© <span className="text-14"><span>Combat</span>DB</span> All rights reserved <Link to="/ReportContent" className="footerReport">Report</Link></p>
+                	<p className="copyright">© <span className="text-14"><span>Ascent</span>DB</span> All rights reserved <Link to="/ReportContent" className="footerReport">Report</Link></p>
                 	
                 </div>
             </div>

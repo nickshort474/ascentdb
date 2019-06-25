@@ -84,7 +84,7 @@ export default class Home extends Component{
 			        		</div>
 			        		<div className="col-xs-12 col-sm-7">
 			        			<div className="box greyedContent">	
-				        			<p>Climb the World is aiming to be the number one resource for all climbers, be they boulders, sport climbers, or alpinists all over the world.</p>
+				        			<p>AscentDB is aiming to be the number one resource for all climbers, be they boulders, sport climbers, or alpinists all over the world.</p>
 				        			<p>Our mission to build a community driven resource with a range a growing features, to help support and connect all climbers all over the world while focussing on privacy, ethicasy and community.</p> 
 				        			
 			        			</div>

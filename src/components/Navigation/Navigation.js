@@ -65,11 +65,11 @@ class HeaderNavigation extends Component{
 				<header className="navbar navbar-transparent navbar-fixed-top">
 			    	<div className="container">
 			    		<div className="Brand-header hidden-xs">
-			            	~ World Climbing Life ~
+			            	AscentDB
 			               
 			            </div>
 			            <div className="navbar-header">
-			            	<Link to="/" className="navbar-brand visible-xs">World Climbing Life </Link>
+			            	<Link to="/" className="navbar-brand visible-xs">AscentDB</Link>
 			                <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse"  aria-expanded="false"><i className="fa fa-bars"></i></button>
 			            </div>
 

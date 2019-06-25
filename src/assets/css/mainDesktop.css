@@ -26,8 +26,8 @@ body{
 	padding-top:50px;
 	margin-bottom: 60px;
 	background-image:url('../images/background/background-5.jpg');
-	
-	background-repeat: repeat-y;
+	background-size: cover;
+	/*background-repeat: repeat-y;*/
 	
 }
 
@@ -63,7 +63,7 @@ a {
 
 a:hover, 
 a:focus {
-	color: #royalblue;
+	color: white;
 }
 
 
@@ -281,7 +281,7 @@ span.required {
 
 header.navbar {
 	background-color:lightskyblue;
-
+	background-image:linear-gradient(blue,deepskyblue);
 	border:0;
 	margin:0;
 	box-shadow:0 1px 8px 0 rgba(0,0,0,0.3);
@@ -290,8 +290,13 @@ header.navbar {
 
 header.navbar .navbar-brand,
 header.navbar .navbar-brand:hover {
-	color: #000000;
-	font-weight:700;
+	
+	text-align:center;
+	font-family: 'Days One', sans-serif;
+	color:white;
+	font-size:22px;
+	margin-bottom: 0px;
+	text-shadow: 3px 2px blue;
 }
 
 header.navbar .navbar-nav > li > a {
@@ -412,9 +417,9 @@ header.navbar .navbar-buttons .navbar-icon {
 
 footer.navbar {
 	position:absolute;
-	/*background-color:#292929;*/
-	/*background-color:rgba(0,0,0,0.5);*/
+	
 	background-color:skyblue;
+	background-image:linear-gradient(deepskyblue,blue);
 	border:0;
 	margin:0;
 	border-radius:0;
@@ -439,7 +444,7 @@ footer.navbar .navbar-nav > li > a:focus {
 
 footer.navbar p.copyright {
 	margin:0;
-	color: #777777;
+	color: #ffffff;
 	text-align:right;
 	padding:15px 15px 0 0;
 }
@@ -452,7 +457,7 @@ footer.navbar p.copyright {
 ------------------------------*/
 
 .content-wrapper {
-	background-color:rgba(0,0,200,0.4);
+	/*background-color:rgba(0,0,0,0.4);*/
 	padding:20px;
 }
 
@@ -1452,7 +1457,10 @@ select{
 
 
 .greyedContent{
-	background-color:lightskyblue
+	background-color:rgba(135, 206, 250, 0.9);
+	border-style:solid;
+	border-width:  1px ;
+	border-color:rgba(0, 0, 255, 0.2);
 }
 
 .personComp{
@@ -1697,14 +1705,16 @@ td.rdtYear:hover {
 
 .Brand-header{
 	text-align:center;
-	font-family: 'Josefin Sans', sans-serif;
-	color:midnightblue;
-	font-size:24px;
+	font-family: 'Days One', sans-serif;
+	color:white;
+	font-size:28px;
 	margin-bottom: 0px;
+	text-shadow: 3px 2px blue;
 }
 
 header.navbar .navbar-nav > li > a{
 	padding-top:8px;
 	padding-bottom:8px;
+	font-weight:600;
 }
 
