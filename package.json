@@ -13,7 +13,7 @@
     "ajv": "^6.0.0",
     "bcat.bgswitcher": "^2.2.1",
     "bootstrap": "^3.3.7",
-    "firebase": "^5.2.0",
+    "firebase": "^10.9.0",
     "font-awesome": "^4.7.0",
     "google-maps-react": "^2.0.2",
     "grunt": "^1.0.3",
